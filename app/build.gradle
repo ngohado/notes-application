@@ -89,4 +89,8 @@ dependencies {
   // Integration with observables
   implementation 'androidx.compose.runtime:runtime-livedata:1.0.0-rc01'
   implementation 'androidx.compose.runtime:runtime-rxjava2:1.0.0-rc01'
+  //Ktor
+  implementation("io.ktor:ktor-client-core:1.6.1")
+  implementation("io.ktor:ktor-client-cio:1.6.1")
+
 }
