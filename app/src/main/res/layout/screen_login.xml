@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/rootLayout"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/login_screen_background_color">
+
+  <LinearLayout
+    android:id="@+id/llTop"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/common_header_color_view"
+    android:orientation="vertical"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.appcompat.widget.AppCompatTextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginTop="@dimen/login_screen_header_text_margin_top"
+      android:text="@string/login_screen_title"
+      android:textColor="@color/login_screen_text_header"
+      android:textSize="@dimen/login_screen_header_text_size"
+      android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/ic_login_1" />
+  </LinearLayout>
+
+  <androidx.appcompat.widget.AppCompatTextView
+    android:id="@+id/txtId"
+    style="@style/LoginStyleText"
+    android:text="@string/login_screen_id_text"
+    android:layout_marginStart="@dimen/login_screen_text_id_margin_left"
+    android:layout_marginTop="@dimen/login_screen_text_id_margin_top_parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+  <androidx.appcompat.widget.AppCompatEditText
+    android:id="@+id/edtId"
+    style="@style/StyleEditText"
+    android:gravity="center_vertical"
+    android:hint="@string/login_screen_id_hint_text"
+    android:inputType="text"
+    android:imeOptions="actionNext"
+    android:maxLength="100"
+    android:textColor="@color/login_screen_text_input_id"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/txtId"
+    tools:ignore="Autofill" />
+
+  <androidx.appcompat.widget.AppCompatTextView
+    android:id="@+id/txtPassword"
+    style="@style/LoginStyleText"
+    android:layout_marginTop="@dimen/login_screen_password_text_margin_top"
+    android:text="@string/login_screen_password_text"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/edtId" />
+
+  <androidx.appcompat.widget.AppCompatEditText
+    android:id="@+id/edtPassword"
+    style="@style/StyleEditText"
+    android:gravity="center_vertical"
+    android:imeOptions="actionDone"
+    android:hint="@string/login_screen_password_hint_text"
+    android:maxLength="20"
+    android:inputType="textPassword"
+    android:textColor="@color/login_screen_text_input_password"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/txtPassword" />
+
+  <androidx.appcompat.widget.AppCompatTextView
+    android:id="@+id/txtAgreement"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/login_screen_agreement_text_margin_top"
+    android:text="@string/login_screen_agreement_text"
+    android:textColor="@color/login_screen_text_color_auto_login"
+    android:textSize="@dimen/login_screen_agreement_text_size"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/edtPassword" />
+
+  <androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/btnLogin"
+    style="@style/ButtonStyleApp"
+    android:text="@string/login_screen_login_button"
+    android:textColor="@color/login_screen_button_text_color"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/txtAgreement" />
+
+  <androidx.appcompat.widget.AppCompatCheckBox
+    android:id="@+id/cbAutoLogin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:buttonTint="@color/login_screen_check_box"
+    android:text="@string/login_screen_auto_login_checkbox"
+    android:textColor="@color/login_screen_check_box_text"
+    android:textSize="@dimen/login_screen_auto_login_text_size"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/btnLogin" />
+
+
+  <TextView
+    android:id="@+id/ivInfo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/login_screen_information_text_margin_left"
+    android:layout_marginTop="@dimen/login_screen_information_margin_top"
+    android:background="@drawable/all_line_green"
+    android:text="@string/top_screen_information_title"
+    android:textColor="@color/all_information_area_text"
+    android:textSize="@dimen/top_screen_information_text_size"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/cbAutoLogin" />
+
+  <ImageView
+    android:id="@+id/ivRight"
+    android:layout_width="@dimen/all_animation_image_animation_width"
+    android:layout_height="@dimen/all_animation_image_height"
+    android:layout_marginTop="@dimen/all_animation_image_margin_top"
+    android:background="@drawable/ic_login_2"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/cbAutoLogin"
+    tools:ignore="ContentDescription" />
+
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginStart="@dimen/all_information_area_margin_horizontal"
+    android:layout_marginTop="@dimen/all_information_area_margin_top"
+    android:layout_marginEnd="@dimen/all_information_area_margin_horizontal"
+    android:layout_weight="1"
+    android:background="@color/all_information_area_background"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/ivInfo">
+
+    <androidx.appcompat.widget.AppCompatTextView
+      android:id="@+id/txtInformationArea"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@color/all_information_area_text"
+      android:textSize="@dimen/all_information_area_text_size" />
+  </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

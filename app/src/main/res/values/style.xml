@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="AppTheme.SplashScreen" parent="Theme.AppCompat.NoActionBar">
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:windowActionBarOverlay">true</item>
+    <item name="android:windowBackground">@drawable/splash</item>
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="StyleEditText">
+    <item name="android:layout_width">@dimen/all_edit_text_width</item>
+    <item name="android:background">@drawable/all_edittext_background</item>
+    <item name="android:layout_height">@dimen/all_edit_text_height</item>
+    <item name="android:imeOptions">actionDone</item>
+    <item name="android:layout_gravity">center</item>
+    <item name="android:paddingStart">@dimen/all_edit_text_padding_start</item>
+    <item name="android:layout_marginTop">@dimen/all_edit_text_margin_top</item>
+  </style>
+
+  <style name="LoginStyleText">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_marginStart">@dimen/login_screen_all_text_margin_start</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">@color/login_screen_text_content</item>
+    <item name="android:textSize">@dimen/login_screen_all_text_size</item>
+  </style>
+
+  <style name="ButtonStyleApp">
+    <item name="android:layout_width">@dimen/all_button_width_size</item>
+    <item name="android:layout_marginTop">@dimen/all_button_margin_top</item>
+    <item name="android:layout_height">@dimen/all_button_height_size</item>
+    <item name="android:textColor">@color/all_button_text</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:background">@drawable/all_button_selector_background</item>
+    <item name="android:textSize">@dimen/all_button_text_size</item>
+  </style>
+
+</resources>
