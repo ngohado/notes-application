@@ -26,11 +26,13 @@ class MainActivity : BaseActivity() {
 
     val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as? NavHostFragment
     val graph = navHostFragment?.navController?.navInflater?.inflate(R.navigation.nav_graph) ?: return
-    graph.startDestination = if (userHasLoggedIn) {
-      R.id.topScreen
-    } else {
-      R.id.loginScreen
-    }
+    graph.setStartDestination(
+      if (userHasLoggedIn) {
+        R.id.topScreen
+      } else {
+        R.id.loginScreen
+      }
+    )
 
     navHostFragment.navController.graph = graph
   }

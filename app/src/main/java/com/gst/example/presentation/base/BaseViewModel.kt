@@ -4,8 +4,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.disposables.Disposable
-import com.gst.example.common.reactive.SingleLiveEvent
-import com.gst.example.common.reactive.addToCompositeDisposable
+import com.gst.common.reactive.SingleLiveEvent
+import com.gst.common.reactive.addToCompositeDisposable
 
 abstract class BaseViewModel<S : Any> : ViewModel() {
   val store by lazy {

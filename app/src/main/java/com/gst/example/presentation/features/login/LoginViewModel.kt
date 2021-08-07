@@ -1,9 +1,9 @@
 package com.gst.example.presentation.features.login
 
-import com.gst.example.common.logging.DebugLog
-import com.gst.example.common.reactive.ListenTriggerLiveEvent
-import com.gst.example.common.reactive.TriggerLiveEvent
-import com.gst.example.common.reactive.applyIO
+import com.gst.common.logging.DebugLog
+import com.gst.common.reactive.ListenTriggerLiveEvent
+import com.gst.common.reactive.TriggerLiveEvent
+import com.gst.common.reactive.applyIO
 import com.gst.example.data.repositories.authentication.AuthenticationRepository
 import com.gst.example.presentation.base.BaseViewModel
 import com.gst.example.presentation.features.login.errors.LoginFailed

@@ -3,9 +3,9 @@ package com.gst.example.presentation.base
 import android.Manifest
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
-import com.gst.example.common.logging.DebugLog
-import com.gst.example.common.permission.Permission
-import com.gst.example.common.views.SafetyClickListener
+import com.gst.common.logging.DebugLog
+import com.gst.common.permission.Permission
+import com.gst.common.views.SafetyClickListener
 
 interface IBaseFragment : DialogCommonView {
   /**

@@ -1,16 +1,18 @@
+import com.gst.example.build.Dependencies
+
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
   repositories {
     google()
-    jcenter()
+    mavenCentral()
   }
 
   dependencies {
-    classpath 'com.android.tools.build:gradle:7.0.0-beta05'
-    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${AndroidConfig.kotlinVersion}"
+    classpath Dependencies.Android.plugin
+    classpath Dependencies.Kotlin.plugin
 
-    classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.3.4"
-    classpath Dependencies.diHiltGradlePlugin
+    classpath Dependencies.Navigation.plugin
+    classpath Dependencies.Hilt.plugin
   }
 }
 
@@ -18,52 +20,6 @@ allprojects {
   repositories {
     google()
     mavenCentral()
-  }
-}
-
-
-subprojects {
-  afterEvaluate { project ->
-    if (project.hasProperty('android')) {
-
-      android {
-        compileSdkVersion AndroidConfig.compileSdk
-        buildToolsVersion AndroidConfig.buildTools
-
-        defaultConfig {
-          minSdkVersion AndroidConfig.minSdk
-          targetSdkVersion AndroidConfig.targetSdk
-
-          consumerProguardFiles "consumer-rules.pro"
-        }
-
-        buildFeatures {
-          // Enables Jetpack Compose for this module
-          compose true
-        }
-
-        compileOptions {
-          sourceCompatibility JavaVersion.VERSION_1_8
-          targetCompatibility JavaVersion.VERSION_1_8
-        }
-
-        kotlinOptions {
-          jvmTarget = '1.8'
-          useIR = true
-        }
-
-        composeOptions {
-          kotlinCompilerVersion = "1.5.10"
-          kotlinCompilerExtensionVersion '1.0.0-rc01'
-        }
-
-        testOptions {
-          unitTests.all {
-            setIgnoreFailures(true)
-          }
-        }
-      }
-    }
   }
 }
 

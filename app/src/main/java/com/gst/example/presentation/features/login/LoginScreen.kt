@@ -12,8 +12,8 @@ import android.widget.Toast
 import androidx.fragment.app.viewModels
 import com.gst.example.R
 import dagger.hilt.android.AndroidEntryPoint
-import com.gst.example.common.views.hideKeyBoard
-import com.gst.example.common.views.requestFocusAndHideKeyBoard
+import com.gst.common.views.hideKeyBoard
+import com.gst.common.views.requestFocusAndHideKeyBoard
 import com.gst.example.presentation.base.BaseFragment
 import com.gst.example.presentation.features.login.errors.LoginFailed
 import kotlinx.android.synthetic.main.screen_login.*

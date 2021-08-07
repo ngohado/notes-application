@@ -5,8 +5,8 @@ import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import dagger.hilt.android.AndroidEntryPoint
-import com.gst.example.common.permission.Permission
-import com.gst.example.common.permission.PermissionUtil
+import com.gst.common.permission.Permission
+import com.gst.common.permission.PermissionUtil
 
 @AndroidEntryPoint
 abstract class BaseActivity : AppCompatActivity(), DialogCommonView {

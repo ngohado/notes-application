@@ -1,0 +1,8 @@
+apply plugin: 'com.android.dynamic-feature'
+apply from: "$rootDir/commonPlugin/common_android_module_configs_plugin.gradle"
+
+android {
+    dependencies {
+        implementation project(":app")
+    }
+}
