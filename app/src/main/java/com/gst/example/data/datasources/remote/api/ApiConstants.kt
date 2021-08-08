@@ -1,6 +1,6 @@
 package com.gst.example.data.datasources.remote.api
 
-import com.gst.example.common.network.NetworkingType
+import com.gst.common.network.NetworkingType
 
 object ApiConstants {
   const val LOGIN_PATH = "login/"

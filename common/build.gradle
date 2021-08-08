@@ -1,0 +1,12 @@
+import com.gst.example.build.Dependencies
+
+apply from: "$rootDir/commonPlugin/common_android_library_module_configs_plugin.gradle"
+
+dependencies {
+    implementation Dependencies.ReactiveX.rxJava
+    implementation Dependencies.ReactiveX.rxAndroid
+
+    implementation Dependencies.Lifecycle.runtime
+    implementation Dependencies.Lifecycle.compiler
+    implementation Dependencies.Lifecycle.liveDataKtx
+}

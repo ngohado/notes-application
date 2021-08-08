@@ -1,9 +1,9 @@
 package com.gst.example.presentation.features.splash
 
 import androidx.lifecycle.LiveData
-import com.gst.example.common.logging.DebugLog
-import com.gst.example.common.reactive.SingleLiveEvent
-import com.gst.example.common.reactive.applyIO
+import com.gst.common.logging.DebugLog
+import com.gst.common.reactive.SingleLiveEvent
+import com.gst.common.reactive.applyIO
 import com.gst.example.data.repositories.authentication.AuthenticationRepository
 import com.gst.example.presentation.base.BaseViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel

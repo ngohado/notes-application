@@ -7,9 +7,9 @@ import androidx.security.crypto.EncryptedSharedPreferences
 import androidx.security.crypto.MasterKey
 import dagger.hilt.android.qualifiers.ApplicationContext
 import com.gst.example.SecureStorageConfig
-import com.gst.example.common.sharedpreference.KeyExistPreferenceDelegate
-import com.gst.example.common.sharedpreference.StringPreferenceDelegate
-import com.gst.example.common.sharedpreference.removeData
+import com.gst.common.sharedpreference.KeyExistPreferenceDelegate
+import com.gst.common.sharedpreference.StringPreferenceDelegate
+import com.gst.common.sharedpreference.removeData
 import javax.inject.Inject
 
 interface ISecureStorageManager {

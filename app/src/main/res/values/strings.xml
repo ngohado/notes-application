@@ -1,110 +1,112 @@
 <resources>
-  <string name="app_name">SUUMO入稿</string>
+    <string name="app_name">Notes</string>
 
-  <!--region All-->
-  <string name="all_not_support_feature_message">This feature is not implemented yet!</string>
-  <string name="all_button_close_text">Close</string>
-  <string name="all_button_cancel_text">キャンセル</string>
-  <string name="all_button_ok">OK</string>
-  <string name="all_button_cancel">Cancel</string>
-  <!--endregion-->
+    <!--region All-->
+    <string name="all_not_support_feature_message">This feature is not implemented yet!</string>
+    <string name="all_button_close_text">Close</string>
+    <string name="all_button_cancel_text">キャンセル</string>
+    <string name="all_button_ok">OK</string>
+    <string name="all_button_cancel">Cancel</string>
+    <!--endregion-->
 
-  <!--region Login -->
-  <string name="login_screen_login_button">ログイン</string>
-  <string name="login_screen_id_text">ID</string>
-  <string name="login_screen_password_text">パスワード</string>
-  <string name="login_screen_agreement_text">利用規約をご確認の上</string>
-  <string name="login_screen_auto_login_checkbox">次回から自動的にログイン</string>
-  <string name="login_screen_password_hint_text">password</string>
-  <string name="login_screen_id_hint_text">id</string>
-  <string name="login_screen_information_text">information</string>
-  <string name="login_screen_title">どこでも素材入稿</string>
-  <string name="login_dialog_error_title_input_incorrect">入力エラー</string>
-  <string name="login_dialog_error_message_input_incorrect">ログイン・パスワードに誤りがあります。SUUMO入稿・分析システム（賃貸）にてご確認のうえ、再度ログインをしてください。</string>
-  <!--endregion-->
+    <!--region Login -->
+    <string name="login_screen_login_button">ログイン</string>
+    <string name="login_screen_id_text">ID</string>
+    <string name="login_screen_password_text">パスワード</string>
+    <string name="login_screen_agreement_text">利用規約をご確認の上</string>
+    <string name="login_screen_auto_login_checkbox">次回から自動的にログイン</string>
+    <string name="login_screen_password_hint_text">password</string>
+    <string name="login_screen_id_hint_text">id</string>
+    <string name="login_screen_information_text">information</string>
+    <string name="login_screen_title">どこでも素材入稿</string>
+    <string name="login_dialog_error_title_input_incorrect">入力エラー</string>
+    <string name="login_dialog_error_message_input_incorrect">ログイン・パスワードに誤りがあります。SUUMO入稿・分析システム（賃貸）にてご確認のうえ、再度ログインをしてください。</string>
+    <!--endregion-->
 
-  <!--region Common toolbar -->
-  <string name="common_toolbar_menu_button">メニュー</string>
-  <!--endregion -->
+    <!--region Common toolbar -->
+    <string name="common_toolbar_menu_button">メニュー</string>
+    <!--endregion -->
 
-  <!--region Menu dialog -->
-  <string name="menu_dialog_logout_button">ログアウト</string>
-  <string name="menu_dialog_upload_history_button">送信履歴</string>
-  <string name="menu_dialog_return_top_button">入稿件選定</string>
-  <!--endregion-->
+    <!--region Menu dialog -->
+    <string name="menu_dialog_logout_button">ログアウト</string>
+    <string name="menu_dialog_upload_history_button">送信履歴</string>
+    <string name="menu_dialog_return_top_button">入稿件選定</string>
+    <!--endregion-->
 
-  <!--region Top -->
-  <string name="top_screen_button_search_location">現在地から探す</string>
-  <string name="top_screen_button_search_condition">条件・物件名から探す</string>
-  <string name="top_screen_misoshin_count">送信履歴\n未送信件数　%s件</string>
-  <string name="top_screen_title">どこでも素材入稿</string>
-  <string name="top_screen_header">入稿対象物件の選定</string>
-  <string name="top_screen_mishutoku">"未取得"</string>
-  <string name="top_screen_video_cm_publish_limit"><![CDATA[動画・ＣＭ掲載 <font color=\'#ff0000\'>%1$s</font> 指示/ <font color=\'#ff0000\'>%2$s</font> 枠 ]]></string>
-  <string name="top_screen_video_cm_create_limit"><![CDATA[動画・ＣＭ作成 <font color=\'#ff0000\'>%1$s</font> 枠/ <font color=\'#ff0000\'>%2$s</font> 枠 ]]></string>
-  <string name="top_screen_information_title">information</string>
-  <string name="top_screen_dialog_auto_login_fail_title">セッションエラー</string>
-  <string name="top_screen_dialog_auto_login_fail_content">通信状態が不安定になっております。\n
+    <!--region Top -->
+    <string name="top_screen_button_search_location">現在地から探す</string>
+    <string name="top_screen_button_search_condition">条件・物件名から探す</string>
+    <string name="top_screen_misoshin_count">送信履歴\n未送信件数　%s件</string>
+    <string name="top_screen_title">どこでも素材入稿</string>
+    <string name="top_screen_header">入稿対象物件の選定</string>
+    <string name="top_screen_mishutoku">"未取得"</string>
+    <string name="top_screen_video_cm_publish_limit"><![CDATA[動画・ＣＭ掲載 <font color=\'#ff0000\'>%1$s</font> 指示/ <font color=\'#ff0000\'>%2$s</font> 枠 ]]></string>
+    <string name="top_screen_video_cm_create_limit"><![CDATA[動画・ＣＭ作成 <font color=\'#ff0000\'>%1$s</font> 枠/ <font color=\'#ff0000\'>%2$s</font> 枠 ]]></string>
+    <string name="top_screen_information_title">information</string>
+    <string name="top_screen_dialog_auto_login_fail_title">セッションエラー</string>
+    <string name="top_screen_dialog_auto_login_fail_content">通信状態が不安定になっております。\n
     回線がつながりにくくなっております。通信環境をご確認ください。エラーコード:%s</string>
-  <string name="top_screen_dialog_auto_login_fail_first_button">再度ログイン</string>
-  <string name="top_screen_dialog_auto_login_fail_second_button">ログアウト</string>
-  <!--endregion-->
+    <string name="top_screen_dialog_auto_login_fail_first_button">再度ログイン</string>
+    <string name="top_screen_dialog_auto_login_fail_second_button">ログアウト</string>
+    <!--endregion-->
 
-  <!-- region Search -->
-  <string name="property_search_condition_title">条件・物件名から探す</string>
-  <string name="property_search_condition_name">物件名</string>
-  <string name="property_search_condition_published">掲載状態</string>
-  <string name="property_search_condition_registered">登録素材の状態</string>
-  <string name="property_search_condition_transport">バス・シャワールーム写真なし</string>
-  <string name="property_search_condition_kitchen">キッチン写真なし</string>
-  <string name="property_search_condition_living">居室・リビング写真なし</string>
-  <string name="property_search_condition_outside">外観写真なし</string>
-  <string name="property_search_condition_video">動画・CM関連付けなし</string>
-  <string name="property_search_condition_highlight">ハイライト条件</string>
-  <string name="property_search_condition_basic_status">物件基本情報</string>
-  <string name="property_search_condition_cost_status">賃料</string>
-  <string name="property_search_condition_floor_status">間取りタイプ</string>
-  <string name="property_search_condition_type_status">種別</string>
-  <string name="property_search_condition_old_property_status">築年数</string>
-  <string name="property_search_condition_transaction_status">取引態様</string>
-  <string name="property_search_condition_message">条件に一致する物件がありません。</string>
-  <string name="property_search_condition_message_location">５ｋｍ以内に該当する物件がありませんでした。</string>
-  <string name="property_search_condition_clear">クリアー</string>
+    <!-- region Search -->
+    <string name="property_search_condition_title">条件・物件名から探す</string>
+    <string name="property_search_condition_name">物件名</string>
+    <string name="property_search_condition_published">掲載状態</string>
+    <string name="property_search_condition_registered">登録素材の状態</string>
+    <string name="property_search_condition_transport">バス・シャワールーム写真なし</string>
+    <string name="property_search_condition_kitchen">キッチン写真なし</string>
+    <string name="property_search_condition_living">居室・リビング写真なし</string>
+    <string name="property_search_condition_outside">外観写真なし</string>
+    <string name="property_search_condition_video">動画・CM関連付けなし</string>
+    <string name="property_search_condition_highlight">ハイライト条件</string>
+    <string name="property_search_condition_basic_status">物件基本情報</string>
+    <string name="property_search_condition_cost_status">賃料</string>
+    <string name="property_search_condition_floor_status">間取りタイプ</string>
+    <string name="property_search_condition_type_status">種別</string>
+    <string name="property_search_condition_old_property_status">築年数</string>
+    <string name="property_search_condition_transaction_status">取引態様</string>
+    <string name="property_search_condition_message">条件に一致する物件がありません。</string>
+    <string name="property_search_condition_message_location">５ｋｍ以内に該当する物件がありませんでした。</string>
+    <string name="property_search_condition_clear">クリアー</string>
 
-  <string name="property_search_condition_max_label">%s以下</string>
-  <string name="property_search_condition_min_label">%s以上</string>
-  <string name="property_search_condition_etc">%sなど</string>
-  <string name="property_search_condition_tilde">%s～%s</string>
-  <string name="property_search_condition_search_text">絞り込み</string>
-  <string name="property_search_condition_search_clear">クリア</string>
-  <string name="property_search_condition_search_selected">設定</string>
+    <string name="property_search_condition_max_label">%s以下</string>
+    <string name="property_search_condition_min_label">%s以上</string>
+    <string name="property_search_condition_etc">%sなど</string>
+    <string name="property_search_condition_tilde">%s～%s</string>
+    <string name="property_search_condition_search_text">絞り込み</string>
+    <string name="property_search_condition_search_clear">クリア</string>
+    <string name="property_search_condition_search_selected">設定</string>
 
-  <string name="property_search_condition_public_category_title">掲載状態</string>
-  <string name="property_search_condition_net_public_category_title">ネット掲載物件</string>
+    <string name="property_search_condition_public_category_title">掲載状態</string>
+    <string name="property_search_condition_net_public_category_title">ネット掲載物件</string>
 
-  <string name="property_search_condition_select_condition_search_title">条件・物件検索</string>
+    <string name="property_search_condition_select_condition_search_title">条件・物件検索</string>
 
-  <!-- endregion -->
+    <!-- endregion -->
 
-  <!-- region Others -->
-  <string name="app_version_dialog_message_update">Google Playで最新バージョンのアプリが公開されています。Google Playを起動しますか？</string>
-  <!-- endregion -->
+    <!-- region Others -->
+    <string name="app_version_dialog_message_update">Google Playで最新バージョンのアプリが公開されています。Google Playを起動しますか？</string>
+    <!-- endregion -->
 
-  <!-- region Property List -->
-  <string name="property_search_condition_no_property_message">条件に一致する物件がありません。</string>
-  <string name="property_list_title">物件一覧</string>
-  <string name="property_list_number_item_remaining_text">次の%1$d件を表示</string>
-  <string name="property_list_property_title">%s %s</string>
-  <string name="property_list_line_train">%s/%s %s</string>
-  <string name="property_list_street_address">%s%s</string>
-  <string name="property_list_management_costs_text">管理費:</string>
-  <string name="property_list_less_than_sign">&lt;</string>
-  <string name="property_list_greater_than_sign">&gt;</string>
-  <string name="property_list_photo_rate_text">現在登録画像(間取り含む) %s点</string>
-  <string name="property_list_related_status_text">関連付状況</string>
-  <string name="property_list_publication_status_text">掲載状況</string>
-  <string name="property_list_posting_instruction_status_text">掲載指示状況</string>
-  <string name="property_list_search_condition_title">条件・物件名から探す物件一覧</string>
-  <string name="property_list_text_item_load_more">次の%1$d件を表示</string>
-  <!-- endregion -->
+    <!-- region Property List -->
+    <string name="property_search_condition_no_property_message">条件に一致する物件がありません。</string>
+    <string name="property_list_title">物件一覧</string>
+    <string name="property_list_number_item_remaining_text">次の%1$d件を表示</string>
+    <string name="property_list_property_title">%s %s</string>
+    <string name="property_list_line_train">%s/%s %s</string>
+    <string name="property_list_street_address">%s%s</string>
+    <string name="property_list_management_costs_text">管理費:</string>
+    <string name="property_list_less_than_sign">&lt;</string>
+    <string name="property_list_greater_than_sign">&gt;</string>
+    <string name="property_list_photo_rate_text">現在登録画像(間取り含む) %s点</string>
+    <string name="property_list_related_status_text">関連付状況</string>
+    <string name="property_list_publication_status_text">掲載状況</string>
+    <string name="property_list_posting_instruction_status_text">掲載指示状況</string>
+    <string name="property_list_search_condition_title">条件・物件名から探す物件一覧</string>
+    <string name="property_list_text_item_load_more">次の%1$d件を表示</string>
+    <string name="title_home">Home</string>
+    <string name="title_detailnote">Detail Note</string>
+    <!-- endregion -->
 </resources>

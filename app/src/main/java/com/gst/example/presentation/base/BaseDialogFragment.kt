@@ -9,7 +9,7 @@ import android.view.ViewGroup
 import androidx.annotation.CallSuper
 import androidx.fragment.app.DialogFragment
 import com.gst.example.R
-import com.gst.example.common.views.SafetyClickListener
+import com.gst.common.views.SafetyClickListener
 import kotlinx.android.synthetic.main.fragment_base.*
 import kotlinx.android.synthetic.main.fragment_base.view.*
 

@@ -11,7 +11,7 @@ import androidx.annotation.CallSuper
 import androidx.fragment.app.Fragment
 import com.gst.example.R
 import dagger.hilt.android.AndroidEntryPoint
-import com.gst.example.common.views.SafetyClickListener
+import com.gst.common.views.SafetyClickListener
 import kotlinx.android.synthetic.main.fragment_base.*
 import kotlinx.android.synthetic.main.fragment_base.view.*
 

@@ -2,7 +2,7 @@ package com.gst.example.data.datasources.remote.api
 
 import io.reactivex.rxjava3.core.Single
 import com.gst.example.NetworkConfig
-import com.gst.example.common.logging.DebugLog
+import com.gst.common.logging.DebugLog
 import com.gst.example.data.datasources.remote.entities.LoginRequest
 import com.gst.example.data.datasources.remote.entities.LoginResponse
 import retrofit2.Retrofit
